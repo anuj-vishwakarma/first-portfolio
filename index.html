@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>My Portfolio</title>
+  <link id="theme-stylesheet" rel="stylesheet" href="darkMode.css" />
+  <link id="theme-stylesheet" rel="stylesheet" href="mediaqueries.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.css">
+</head>
+
+<body>
+
+
+
+  </div>
+
+  <nav id="desktop-nav">
+    <div class="logo">Anuj Vishwakarma</div>
+    <div>
+      <ul class="nav-links">
+        <li><a href="#about">About</a></li>
+        <li><a href="#experience">Experience</a></li>
+        <li><a href="#projects">Projects</a></li>
+        <li><a href="#contact">Contact</a></li>
+        <img src="./assets/lightmode.png" onclick="toggleTheme()" id="theme-toggle" draggable="false"></img>
+      </ul>
+    </div>
+  </nav>
+  <nav id="hamburger-nav">
+    <div class="logo">Anuj Vishwakarma</div>
+    <div class="hamburger-menu">
+      <div class="hamburger-icon" onclick="toggleMenu()">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+      <div class="dark-mode-div draggable=" false">
+        <img src="./assets/lightmode.png" id="theme-toggle-mobile" draggable="false" onclick="toggleTheme()">
+      </div>
+      <div class="menu-links">
+        <li><a href="#about" onclick="toggleMenu()">About</a></li>
+        <li><a href="#experience" onclick="toggleMenu()">Experience</a></li>
+        <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+        <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+
+      </div>
+    </div>
+  </nav>
+  <section id="profile">
+    <div class="section__pic-container">
+      <img src="./assets/profile-anuj.png" alt="Anuj Vishwakarma profile picture" draggable="false" />
+    </div>
+    <div class="section__text">
+      <p class="section__text__p1">Hello, I'm</p>
+      <h1 class="title">Anuj Vishwakarma</h1>
+      <p class="section__text__p2">Aspiring Software Engineer</p>
+      <div class="btn-container">
+        <button class="btn btn-color-2" onclick="window.open('./')">
+          Download CV
+        </button>
+        <button class="btn btn-color-1" onclick="location.href='./#contact'">
+          Contact Info
+        </button>
+      </div>
+      <div id="socials-container">
+        <img src="./assets/linkedin-light.png" alt="My LinkedIn profile" class="icon"
+          onclick="location.href='https://www.linkedin.com/in/anuj-vishwakarma1/'" draggable="false"
+          id="linkedin-image" />
+        <img src="./assets/github-light.png" alt="My Github profile" class="icon"
+          onclick="location.href='https://github.com/anuj-vishwakarma'" draggable="false" id="github-image" />
+      </div>
+    </div>
+  </section>
+  <section id="about">
+    <p class="section__text__p1">Get To Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+      <div class="section__pic-container">
+        <img src="./assets/anuj-profile2.jpg" alt="Profile picture" class="about-pic" draggable="false" />
+      </div>
+      <div class="about-details-container">
+        <div class="about-containers">
+          <div class="details-container">
+            <img src="./assets/experience-light.png" alt="Experience icon" class="icon" draggable="false"
+              id="experience-image" />
+            <h3>Experience</h3>
+            <p>1+ years <br />Java Development</p>
+          </div>
+          <div class="details-container">
+            <img src="./assets/education-light.png" alt="Education icon" class="icon" draggable="false"
+              id="education-image" />
+            <h3>Education</h3>
+            <p>Bachelors Degree in <br />Computer Science and Engineering</p>
+          </div>
+        </div>
+        <div class="text-container">
+          <p>
+            <!-- Lorem ipsum dolor sit amet consectetur adipisicing elit. Hic quis
+            reprehenderit et laborum, rem, dolore eum quod voluptate
+            exercitationem nobis, nihil esse debitis maxime facere minus sint
+            delectus velit in eos quo officiis explicabo deleniti dignissimos.
+            Eligendi illum libero dolorum cum laboriosam corrupti quidem,
+            reiciendis ea magnam? Nulla, impedit fuga! -->
+
+            Hello,<br>
+            I'm a pre-final year student currently pursuing a Bachelor's degree in Computer Science and
+            Engineering at Guru Ghasidas Vishwavidyalaya, Bilaspur. I have a strong passion for solving puzzles and
+            problems, as well as creating innovative projects. I am enthusiastic about learning new technologies and
+            applying them to develop exciting and impactful solutions.
+          </p>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow-light.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#experience'"
+      draggable="false" id="arrow-image" />
+  </section>
+  <section id="experience">
+    <p class="section__text__p1">Explore My</p>
+    <h1 class="title">Experience</h1>
+    <div class="experience-details-container">
+      <div class="about-containers">
+        <div class="details-container">
+          <h2 class="experience-sub-title">Frontend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark-light.png" alt="Experience icon" class="icon" draggable="false"
+                id="checkmark-light-image" />
+              <div>
+                <h3>HTML</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark-light.png" alt="Experience icon" class="icon" draggable="false"
+                id="checkmark-light-image" />
+              <div>
+                <h3>CSS</h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark-light.png" alt="Experience icon" class="icon" draggable="false"
+                id="checkmark-light-image" />
+              <div>
+                <h3>SASS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark-light.png" alt="Experience icon" class="icon" draggable="false"
+                id="checkmark-light-image" />
+              <div>
+                <h3>JavaScript</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark-light.png" alt="Experience icon" class="icon" draggable="false"
+                id="checkmark-light-image" />
+              <div>
+                <h3>Material UI</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark-light.png" alt="Experience icon" class="icon" draggable="false"
+                id="checkmark-light-image" />
+              <div>
+                <h3>React JS</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+        <div class="details-container">
+          <h2 class="experience-sub-title">Backend Development</h2>
+          <div class="article-container">
+            <article>
+              <img src="./assets/checkmark-light.png" alt="Experience icon" class="icon" draggable="false"
+                id="checkmark-light-image" />
+              <div>
+                <h3>MySQL</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark-light.png" alt="Experience icon" class="icon" draggable="false"
+                id="checkmark-light-image" />
+              <div>
+                <h3><span>Java</span></h3>
+                <p>Experienced</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark-light.png" alt="Experience icon" class="icon" draggable="false"
+                id="checkmark-light-image" />
+              <div>
+                <h3>Linux</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+            <article>
+              <img src="./assets/checkmark-light.png" alt="Experience icon" class="icon" draggable="false"
+                id="checkmark-light-image" />
+              <div>
+                <h3>Git</h3>
+                <p>Intermediate</p>
+              </div>
+            </article>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow-light.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#projects'"
+      draggable="false" id="arrow-image" />
+  </section>
+  <section id="projects">
+    <p class="section__text__p1">Browse My Recent</p>
+    <h1 class="title">Projects</h1>
+    <div class="experience-details-container">
+      <div id="all-projects-container" class="about-containers">
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/student-management-image1.png" alt="Project 1" class="project-img" draggable="false" />
+          </div>
+          <h2 class="experience-sub-title project-title">Student Management<br> System</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn" onclick="location.href='https://github.com/anuj-vishwakarma'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='#projects'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/zescoot-image-21.png" alt="Project 2" class="project-img" id="zescoot-image"
+              draggable="false" />
+          </div>
+          <h2 class="experience-sub-title project-title">Zescoot, A bike-rental landing page</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/anuj-vishwakarma/zescoot'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://zescoot-services.github.io/website/'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+        <div class="details-container color-container">
+          <div class="article-container">
+            <img src="./assets/joke-extension-image.png" alt="Project 3" class="project-img" draggable="false"
+              id="joke-image" />
+          </div>
+          <h2 class="experience-sub-title project-title">Jokes <br>Chrome Extension</h2>
+          <div class="btn-container">
+            <button class="btn btn-color-2 project-btn"
+              onclick="location.href='https://github.com/anuj-vishwakarma/jokes-chrome-extension'">
+              Github
+            </button>
+            <button class="btn btn-color-2 project-btn" onclick="location.href='#projects'">
+              Live Demo
+            </button>
+          </div>
+        </div>
+      </div>
+    </div>
+    <img src="./assets/arrow-light.png" alt="Arrow icon" class="icon arrow" onclick="location.href='./#contact'"
+      draggable="false" id="arrow-image" />
+  </section>
+  <section id="contact">
+    <p class="section__text__p1">Get in Touch</p>
+    <h1 class="title">Contact Me</h1>
+    <div class="contact-info-upper-container">
+      <div class="contact-info-container">
+        <img src="./assets/email-light.png" alt="Email icon" class="icon contact-icon email-icon" draggable="false"
+          id="mail-image" />
+        <p><a href="mailto:mail.anujvishwakarma@gmail.com">mail.anujvishwakarma@gmail.com</a></p>
+      </div>
+      <div class="contact-info-container">
+        <img src="./assets/linkedin-light.png" alt="LinkedIn icon" class="icon contact-icon" draggable="false"
+          id="linkedin-image" />
+        <p><a href="https://www.linkedin.com/in/anuj-vishwakarma1/">LinkedIn</a></p>
+      </div>
+    </div>
+  </section>
+  <footer>
+    <nav>
+      <div class="nav-links-container">
+        <ul class="nav-links">
+          <li><a href="#about">About</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </ul>
+      </div>
+    </nav>
+    <p>Copyright &#169; 2023 Anuj Vishwakarma. All Rights Reserved.</p>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.1/gsap.min.js"
+    integrity="sha512-qF6akR/fsZAB4Co1QDDnUXWnaQseLGXoniuSuSlPQK6+aWhlMZcHzkasCSlnWoe+TJuudlka1/IQ01Dnhgq95g=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdn.jsdelivr.net/npm/locomotive-scroll@3.5.4/dist/locomotive-scroll.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+    integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"
+    integrity="sha512-onMTRKJBKz8M1TnqqDuGBlowlH0ohFzMXYRNebz+yOcc5TQr/zAKsthzhuv0hiyUKEiQEQXEynnXCvNTOk50dg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+  <script src="script.js"></script>
+</body>
+
+</html>
