@@ -6,6 +6,13 @@
   margin: 0;
   padding: 0;
 }
+.pre-loader {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  background: black url("./assets/pre-loader2.gif") no-repeat 48vw 50vh;
+  z-index: 9999999;
+}
 
 body {
   font-family: "Poppins", sans-serif;
